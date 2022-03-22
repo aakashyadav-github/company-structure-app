@@ -12,9 +12,9 @@ function Childrens(props) {
   return (
     <div>
         <h4 onClick={handlesetIsChildrenVisible}>{props.data.name}</h4>
-        {isChildrenVisible ? (props.data.children != undefined && props.data.children.length > 0 ? ( props.data.children.map((da)=>{
-            if(da!=undefined)
-                return (<Childrens key={da.name} data={da}/>)
+        {isChildrenVisible ? (props.data.children != undefined && props.data.children.length > 0 ? ( props.data.children.map((childData)=>{
+            if(childData!=undefined)
+                return (<Childrens key={childData.name} data={childData}/>)
         })) : (props.data.children) ):''}
     </div>
   )
