@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Engineering",
+      "children": [
+        { "name": "QA", "id": "qa", 
+          "children": [
+          { "name": "OnShore QA", "id": "OnShore QA" },
+          { "name": "OffShore QA", "id": "OnShore QA" }
+        ] 
+      },
+        { "name": "Frontend Engineeing", "id": "frontend_engineering",
+          "children": [
+            { "name": "UX", "id": "UX" },
+            { "name": "UI", "id": "UI" }
+          ] 
+         }
+      ]
+    },
+    {
+      "name": "Design",
+      "children": [
+        { "name": "QA", "id": "qa", 
+          "children": [
+          { "name": "OnShore QA", "id": "OnShore QA" },
+          { "name": "OffShore QA", "id": "OnShore QA" }
+        ] 
+      },
+        { "name": "Backend Engineeing", "id": "frontend_engineering",
+          "children": [
+            { "name": "App", "id": "App" },
+            { "name": "DB", "id": "DB" }
+          ] 
+         }
+      ]
+    }
+  ]
+  
